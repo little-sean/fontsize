@@ -17,3 +17,7 @@ jquery.fontsize.js plugin to control fontsize in target dom
     "action": "up",  // 放大up，缩小down
     "id": "view"  // 需要字体缩放的容器id
 });`
+
+# 示例
+
+[Demo](./index.html)
