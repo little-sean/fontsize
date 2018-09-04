@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="common.css">
+    <script src="lib/jquery-1.12.min.js"></script>
+    <title>[页面标题]</title>
+</head>
+
+<body>
+    <span id="big">big</span>
+    <span id="small">small</span>
+
+    <article class="markdown-body scroller-content" id="view">
+        <h1 id="-">
+            <a class="anchor" href="#地图热点解决方案" name="地图热点解决方案"><svg>
+                <use xlink:href="#icon:linkAnchor"></use></svg></a>
+            地图热点解决方案</h1>
+    
+    </article>
+    <script src="dist/fontsize.min.js"></script>
+    
+    <script>
+        $("#big").fontSize({
+            "action": "up",
+            "id": "view"
+        });
+        $("#small").fontSize({
+            "action": "down",
+            "id": "view"
+        });
+    </script>
+</body>
+
+</html>
