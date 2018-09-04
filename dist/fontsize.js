@@ -111,8 +111,6 @@
                             return;
                         }
 
-                        // 1判断父节点的类型，
-                        // 2设置父节点font-size
                         setFontSize(parentNode, 1); // 父节点虽然不是叶子元素节点。但是元素节点。setFontSize跟
                     }
                     break;
@@ -131,7 +129,6 @@
                         return;
                     }
 
-                    // 再判断 父节点类型
                     if ((parentNode.parentNode.id !== that.content.id) && (isLastNode(parentNode.parentNode)) && hasTextNodeBefore(parentNode.parentNode)) {
                         setFontSize(parentNode.parentNode, 1);
                     }
