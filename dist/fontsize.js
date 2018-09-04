@@ -132,7 +132,7 @@
                     }
 
                     // 再判断 父节点类型
-                    if ((parentNode.parentNode.id !== that.content.id) && (isLastNode(parentNode.parentNode))) {
+                    if ((parentNode.parentNode.id !== that.content.id) && (isLastNode(parentNode.parentNode)) && hasTextNodeBefore(parentNode.parentNode)) {
                         setFontSize(parentNode.parentNode, 1);
                     }
                     break;
