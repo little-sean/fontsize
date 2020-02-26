@@ -19,7 +19,7 @@
         this.container = dom;
         // 不需要设置fontsize的标签
         this.noFontTags = ['svg', 'IMG', 'use', 'BR', 'VIDEO', 'AUDIO', 'STYLE', 'SCRIPT'];
-        this._init(this.container);
+        this._init();
         this.$increaseBtn = $(this.settings.increaseBtn);
         this.$reduceBtn = $(this.settings.reduceBtn);
 
