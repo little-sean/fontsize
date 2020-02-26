@@ -21,16 +21,12 @@
             地图热点解决方案</h1>
     
     </article>
-    <script src="dist/fontsize.min.js"></script>
+    <script src="dist/fontsize.js"></script>
     
     <script>
-        $("#big").fontSize({
-            "action": "up",
-            "id": "view"
-        });
-        $("#small").fontSize({
-            "action": "down",
-            "id": "view"
+        $('#view').FontSize({
+            increaseBtn: '#big',
+            reduceBtn: '#small'
         });
     </script>
 </body>
