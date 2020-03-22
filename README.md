@@ -22,4 +22,4 @@ $('#view').FontSize({
 
 # 示例
 
-[Demo](https://htmlpreview.github.io/?https://github.com/little-sean/fontsize/blob/master/index.html)
+[Demo](https://fe.epoint.com.cn/fedemo/pages/fontsize/index.html)
